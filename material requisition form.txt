@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<h1 align="center"> Material Requisition form</h1>
+<hr>
+<html>
+<head>
+<div class="form-row">
+<label for="calendar">Date:</label>
+<input type="date" id="calendar" name="calendar" value="required"/>
+<label for="calendar">Work order number:</label>
+<input type="text" id="Work order number" name="Work order number" required"/><br><br>
+</div>                                                                     </head>
+ <style>
+body{
+    background-color:pink;
+ }                                                                                                                                                        </style>                                                                           <body>
+Person Preparing Request <br><br>
+<label></label>
+<input type="text" placeholder="Full name"size='60'/><br><br>
+<div class="form-row">
+ <label for="name">Role:</label>
+<input type="text" id="name" name="name" required>
+<label for="department">Department:</label>
+<input type="text" id="department" name="department" required><br><br>
+</div>
+<table>
+<thead>
+<tr>
+<th>Stock </th>
+<th>Quantity</th>
+<th>Item Description</th>
+</tr>
+ </thead>
+<tbody>
+ <tr>
+<td>`
+<input type="text"size='16'/></td>
+<td><label></label>
+ <input type="text"size='16'/></td>
+ <td><select>
+                                    <option>item</option>
+                                    <option>item</option>
+                                    <option>item</option></td>
+        </tr>  
+      </tbody>
+    </table>
+  </div>
+<button id="add-row-btn">+ Add New Row</button><br>
+ <style>
+    .box {
+      width: 200px;
+      padding: 1px;
+      border:2px solid #333;
+      background-color: #f4f4f4;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 40px auto;
+      height:50px;
+    }
+    .box img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  </style>
+<div class="box">
+    <p><input type="checkbox">I am not a robot  </p>
+     <img src="captcha.png">
+  </div>
+                          
+<input type="submit" value="submit" style="background-color:pink; border-color:hotpink ;text-align:right" > 
+                                   
+</body>
+</html>
+
+
+
+          
+       
+                
+        
+       
+      
